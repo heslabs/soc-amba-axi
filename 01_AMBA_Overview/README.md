@@ -10,12 +10,16 @@ AMBA has evolved over the years to meet the demands of processors and new techno
 
 ---
 ### System diagram of an SoC with multiple AXI interfaces
-
+* There are only two AXI interface types, manager and subordinate. These interface types are symmetrical.
+* All AXI connections are between manager interfaces and subordinate interfaces.
+* AXI interconnect interfaces contain the same signals, which makes integration of different IP relatively simple.
+  
 <img src="https://github.com/user-attachments/assets/ba59cdfa-7dd1-4cf7-a4df-6851de14c91a" width=700>
 
 ---
 ### System diagram of an SoC with multiple AXI/CHI interfaces
 
+  
 <img src="https://github.com/user-attachments/assets/6ac32bc2-760f-4fed-9a89-0c31d3bac235" width=700>
 
 ---
