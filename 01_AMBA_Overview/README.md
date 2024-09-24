@@ -1,5 +1,24 @@
 # AMBA Overview
 
+This guide introduces the main features of Advanced Microcontroller Bus Architecture (AMBA) AXI. The guide explains the key concepts and details that help you implement the AXI protocol.
+
+## Key AMBA specifications
+AMBA has evolved over the years to meet the demands of processors and new technologies, as shown in the following diagram:
+  
+<img src="https://github.com/user-attachments/assets/beb16846-a03e-4b83-98c4-ea141201d521" width=900>
+
+
+---
+### System diagram of an SoC with multiple AXI interfaces
+
+<img src="https://github.com/user-attachments/assets/ba59cdfa-7dd1-4cf7-a4df-6851de14c91a" width=700>
+
+---
+### System diagram of an SoC with multiple AXI/CHI interfaces
+
+<img src="https://github.com/user-attachments/assets/6ac32bc2-760f-4fed-9a89-0c31d3bac235" width=700>
+
+---
 ## AXI channels
 * The AXI specification describes a point-to-point protocol between two interfaces: a manager and a subordinate. The following diagram shows the five main channels that each AXI interface uses for communication:
 
